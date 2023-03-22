@@ -64,7 +64,7 @@ validation_generator = test_datagen.flow_from_directory(
     class_mode="binary",
 )
 
-model.fit_generator(
+model.fit(
     train_generator,
     steps_per_epoch=train_samples // batch_size,
     epochs=epochs,
