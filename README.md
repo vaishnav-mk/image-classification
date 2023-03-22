@@ -1,6 +1,11 @@
 # README.md
 
-//todo: update readme
+```
+Todo:
+- Cache last 10 or so searches to display on the front page
+- Check if the model has been trained before responding to a request
+- Add a way to train the model via api requests
+```
 
 ![image](https://user-images.githubusercontent.com/84540554/226929414-9fd2fc09-3869-4fbb-b041-89c5d749ac4a.png)
 
